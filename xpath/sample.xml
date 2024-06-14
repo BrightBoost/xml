@@ -1,0 +1,26 @@
+<bankAccounts>
+    <account>
+      <accountNumber>123456789</accountNumber>
+      <accountHolder>John Doe</accountHolder>
+      <balance>1500.75</balance>
+      <type>Savings</type>
+    </account>
+    <account>
+      <accountNumber>987654321</accountNumber>
+      <balance>2500.50</balance>
+      <accountHolder>Jane Smith</accountHolder>
+      <type>Credit</type>
+    </account>
+    <account>
+        <accountNumber>123256789</accountNumber>
+        <accountHolder>Maria Doe</accountHolder>
+        <balance>150.75</balance>
+        <type>Savings</type>
+      </account>
+      <account>
+        <accountNumber>987654221</accountNumber>
+        <balance>25300.50</balance>
+        <accountHolder>Michael Smith</accountHolder>
+        <type>Credit</type>
+      </account>
+  </bankAccounts>
