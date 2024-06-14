@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bankAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bankAccounts.xsd">
+  <bankAccount active="true">
+    <accountNumber></accountNumber>
+    <accountHolder></accountHolder>
+    <balance>3</balance>
+    <type></type>
+    <currency></currency>
+    <transactions>
+      <date></date>
+      <amount></amount>
+      <description></description>
+    </transactions>
+  </bankAccount>
+  <bankAccount active="false">
+    <accountNumber></accountNumber>
+    <accountHolder></accountHolder>
+    <balance></balance>
+    <type></type>
+    <currency></currency>
+    <transactions>
+      <date></date>
+      <amount></amount>
+      <description></description>
+    </transactions>
+  </bankAccount>
+  <bankAccount active="true">
+    <accountNumber></accountNumber>
+    <accountHolder></accountHolder>
+    <balance></balance>
+    <type></type>
+    <currency></currency>
+    <transactions>
+      <date></date>
+      <amount></amount>
+      <description></description>
+    </transactions>
+  </bankAccount>
+</bankAccounts>
