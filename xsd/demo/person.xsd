@@ -31,6 +31,15 @@
                         </xs:all>
                     </xs:complexType>
                 </xs:element>
+                <xs:element name="active">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="value" type="xs:boolean" use="required" />
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
             </xs:all>
         </xs:complexType>
     </xs:element>
