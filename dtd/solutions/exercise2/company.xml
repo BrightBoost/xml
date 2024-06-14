@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE companies SYSTEM "company.dtd">
+<companies>
+  <company>
+    <name>TechCorp</name>
+    <location>New York</location>
+    <revenue>5000000</revenue>
+    <employees>200</employees>
+  </company>
+</companies>

@@ -1,0 +1,8 @@
+<!ELEMENT companies (company+)>
+<!ELEMENT company (name, location, revenue, employees)>
+<!ATTLIST company industry CDATA #REQUIRED>
+<!ATTLIST company status (public|private) #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT revenue (#PCDATA)>
+<!ELEMENT employees (#PCDATA)>

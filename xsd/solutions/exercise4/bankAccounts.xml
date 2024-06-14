@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bankAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bankAccounts.xsd">
+  <account active="true">
+    <accountNumber>123456789</accountNumber>
+    <accountHolder>John Doe</accountHolder>
+    <balance>1500.75</balance>
+    <accountType>Checking</accountType>
+    <currency>USD</currency>
+  </account>
+  <account active="false">
+    <accountNumber>987654321</accountNumber>
+    <accountHolder>Jane Smith</accountHolder>
+    <balance>2500.50</balance>
+    <accountType>Savings</accountType>
+    <currency>USD</currency>
+  </account>
+  <account active="true">
+    <accountNumber>112233445</accountNumber>
+    <accountHolder>Alice Johnson</accountHolder>
+    <balance>1800.25</balance>
+    <accountType>Checking</accountType>
+    <currency>EUR</currency>
+  </account>
+</bankAccounts>

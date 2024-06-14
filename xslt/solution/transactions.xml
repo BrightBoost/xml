@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+  <transaction>
+    <date>2023-06-01</date>
+    <amount>150.75</amount>
+    <description>Deposit</description>
+  </transaction>
+  <transaction>
+    <date>2023-06-02</date>
+    <amount>-50.25</amount>
+    <description>Withdrawal</description>
+  </transaction>
+  <transaction>
+    <date>2023-06-03</date>
+    <amount>200.00</amount>
+    <description>Transfer</description>
+  </transaction>
+</transactions>

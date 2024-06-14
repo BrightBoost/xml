@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+  <company>
+    <name>TechCorp</name>
+    <location>New York</location>
+    <revenue>5000000</revenue>
+    <employees>200</employees>
+    <industry>Technology</industry>
+    <status>Public</status>
+    <departments>
+      <department>
+        <name>Research and Development</name>
+        <employees>50</employees>
+      </department>
+      <department>
+        <name>Sales</name>
+        <employees>30</employees>
+      </department>
+    </departments>
+  </company>
+  <company>
+    <name>InnoSoft</name>
+    <location>San Francisco</location>
+    <revenue>3000000</revenue>
+    <employees>150</employees>
+    <industry>Software</industry>
+    <status>Private</status>
+    <departments>
+      <department>
+        <name>Engineering</name>
+        <employees>70</employees>
+      </department>
+      <department>
+        <name>Marketing</name>
+        <employees>20</employees>
+      </department>
+    </departments>
+  </company>
+  <company>
+    <name>HealthPlus</name>
+    <location>Boston</location>
+    <revenue>7000000</revenue>
+    <employees>350</employees>
+    <industry>Healthcare</industry>
+    <status>Public</status>
+    <departments>
+      <department>
+        <name>Medical Services</name>
+        <employees>200</employees>
+      </department>
+      <department>
+        <name>Administration</name>
+        <employees>50</employees>
+      </department>
+    </departments>
+  </company>
+</companies>

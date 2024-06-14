@@ -1,0 +1,14 @@
+# This is a YAML example
+name: John Doe
+age: 30
+email: johndoe@example.com
+hobbies:
+  - reading
+  - writing
+  - coding
+address:
+  street: 123 Main St
+  city: Springfield
+  state: IL
+  zip: 62701
+  

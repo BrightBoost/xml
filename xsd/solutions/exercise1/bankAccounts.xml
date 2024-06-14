@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bankAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bankAccounts.xsd">
+  <account>
+    <accountNumber>123456789</accountNumber>
+    <accountHolder>John Doe</accountHolder>
+    <balance>1500.75</balance>
+  </account>
+</bankAccounts>

@@ -1,0 +1,6 @@
+<!ELEMENT companies (company+)>
+<!ELEMENT company (name, location, revenue, employees)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT revenue (#PCDATA)>
+<!ELEMENT employees (#PCDATA)>
