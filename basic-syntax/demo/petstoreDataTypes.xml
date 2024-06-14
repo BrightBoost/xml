@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<petstore>
+  <cat>
+    <name datatype="string">Whiskers</name>
+    <age datatype="int">3</age>
+    <breed datatype="string">Siamese</breed>
+  </cat>
+  <kitten>
+    <name>Fluffy</name>
+    <age>0.5</age>
+    <breed>Persian</breed>
+  </kitten>
+</petstore>
