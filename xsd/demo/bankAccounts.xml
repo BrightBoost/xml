@@ -4,10 +4,12 @@
     <accountNumber>123456789</accountNumber>
     <accountHolder>John Doe</accountHolder>
     <balance>1500.75</balance>
+    <type>Savings</type>
   </account>
   <account>
     <accountNumber>987654321</accountNumber>
-    <accountHolder>Jane Smith</accountHolder>
     <balance>2500.50</balance>
+    <accountHolder>Jane Smith</accountHolder>
+    <type>Credit</type>
   </account>
 </bankAccounts>

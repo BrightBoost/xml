@@ -1,0 +1,12 @@
+<sunnytravel>
+    <destination>
+        <name>Paris</name>
+        <country>France</country>
+        <price>1000</price>
+    </destination>
+    <destination>
+        <name>London</name>
+        <country>England</country>
+        <price>800</price>
+    </destination>
+</sunnytravel>

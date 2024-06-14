@@ -5,7 +5,6 @@
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT revenue (#PCDATA)>
-<!ELEMENT employees (#PCDATA)>
 <!ELEMENT departments (department+)>
 <!ELEMENT department (name, employees)>
-
+<!ELEMENT employees (#PCDATA)>

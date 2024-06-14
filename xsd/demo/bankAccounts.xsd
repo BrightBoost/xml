@@ -5,11 +5,20 @@
       <xs:sequence>
         <xs:element name="account" maxOccurs="unbounded">
           <xs:complexType>
-            <xs:sequence>
-              <xs:element name="accountNumber" type="xs:string"/>
-              <xs:element name="accountHolder" type="xs:string"/>
-              <xs:element name="balance" type="xs:decimal"/>
-            </xs:sequence>
+            <xs:all>
+              <xs:element name="accountNumber" type="xs:string" />
+              <xs:element name="accountHolder" type="xs:string" />
+              <xs:element name="balance" type="xs:decimal" />
+              <xs:element name="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Savings" />
+                    <xs:enumeration value="Checking" />
+                    <xs:enumeration value="Credit" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:all>
           </xs:complexType>
         </xs:element>
       </xs:sequence>

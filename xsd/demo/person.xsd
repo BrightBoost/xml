@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="person">
+        <xs:complexType>
+            <xs:all>
+                <xs:element name="firstName" type="xs:string" />
+                <xs:element name="lastName" type="xs:string" />
+                <xs:element name="age">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:int">
+                            <xs:minInclusive value="0"></xs:minInclusive>
+                            <xs:maxInclusive value="150"></xs:maxInclusive>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="email">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[A-Za-z0-9._%-]+@[A-Za-z0-9. -]+.[A-Za-z]{2,4}" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                <xs:element name="instagram" type="xs:string" />
+                <xs:element name="address">
+                    <xs:complexType>
+                        <xs:all>
+                            <xs:element name="street" type="xs:string" />
+                            <xs:element name="city" type="xs:string" />
+                            <xs:element name="state" type="xs:string" />
+                            <xs:element name="zip" type="xs:string" />
+                        </xs:all>
+                    </xs:complexType>
+                </xs:element>
+            </xs:all>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

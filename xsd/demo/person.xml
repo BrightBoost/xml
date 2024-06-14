@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="person.xsd">
+    <firstName>Frank</firstName>
+    <lastName>Smits</lastName>
+    <age>35</age>
+    <email>franksmits@gmail.com</email>
+    <instagram>@franksmits</instagram>
+    <address>
+        <street>123 Main St</street>
+        <city>Springfield</city>
+        <state>IL</state>
+        <zip>62701</zip>
+    </address>
+</person>
