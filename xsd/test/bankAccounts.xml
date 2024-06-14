@@ -4,36 +4,36 @@
     <accountNumber></accountNumber>
     <accountHolder></accountHolder>
     <balance>3</balance>
-    <type></type>
+    <type>Savings</type>
     <currency></currency>
     <transactions>
-      <date></date>
-      <amount></amount>
-      <description></description>
-    </transactions>
-  </bankAccount>
-  <bankAccount active="false">
-    <accountNumber></accountNumber>
-    <accountHolder></accountHolder>
-    <balance></balance>
-    <type></type>
-    <currency></currency>
-    <transactions>
-      <date></date>
-      <amount></amount>
-      <description></description>
+      <date>2022-11-11</date>
+      <amount>1</amount>
+      <description>bla</description>
     </transactions>
   </bankAccount>
   <bankAccount active="true">
     <accountNumber></accountNumber>
     <accountHolder></accountHolder>
-    <balance></balance>
-    <type></type>
+    <balance>3</balance>
+    <type>Savings</type>
     <currency></currency>
     <transactions>
-      <date></date>
-      <amount></amount>
-      <description></description>
+      <date>2022-11-11</date>
+      <amount>1</amount>
+      <description>bla</description>
+    </transactions>
+  </bankAccount>
+  <bankAccount active="true">
+    <accountNumber></accountNumber>
+    <accountHolder></accountHolder>
+    <balance>3</balance>
+    <type>Savings</type>
+    <currency></currency>
+    <transactions>
+      <date>2022-11-11</date>
+      <amount>1</amount>
+      <description>bla</description>
     </transactions>
   </bankAccount>
 </bankAccounts>
